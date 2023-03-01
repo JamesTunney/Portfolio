@@ -1,0 +1,225 @@
+body{
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+div.head { grid-area: image; }
+ul.title { grid-area: title; }
+div.navbar {grid-area: nav;}
+#introduction { grid-area: intro; }
+
+#mainBody { grid-area: mainBody; }
+#mainBody2 { grid-area: mainBody2; }
+
+#sidenote { grid-area:sidenote; }
+#sidenote2 { grid-area:sidenote2; }
+
+div.footer1 { grid-area: footer; }
+div.footer2 { grid-area: footer2; }
+
+p.note1{grid-area: note1;}
+p.note2{grid-area: note2;}
+
+p.note3{grid-area: note3;}
+p.note4{grid-area: note4;}
+
+#wrapper {
+	width: 75vw;
+	display: grid;
+	grid-template-areas:
+    "image      image      image      image"
+    "title      title      title      title"
+	"nav        nav         nav        nav"
+    "mainBody   mainBody   mainBody   sidenote"
+	"footer     footer     footer     footer"
+	"mainBody2   mainBody2   mainBody2   sidenote2"
+	"footer2     footer2     footer2     footer2";
+	grid-template-columns: auto auto;
+	grid-template-rows: 345px auto
+}
+
+.head {
+
+	height: 345px;
+	background: url(../media/minecraftH.png);
+	background-position: center;
+	background-size: cover;
+
+}
+
+h1 {
+	background-color: orange;
+	width: 220px;
+	height: auto;
+	font-size: 40px;
+	color: white;
+	transform: translateY(-20px)
+}
+
+.introduction{
+	margin: 2rem;
+}
+
+ul.title {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	font-size: 40px;
+	width: 75vw;
+	transform: translateY(-50px) translateX(10px);
+}
+
+@media only screen and (max-width: 875px) {
+ul.title {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	font-size: 40px;
+	width: 75vw;
+	transform: translateY(-50px) translateX(10px);
+	background-color:gray;
+}
+}
+
+#topTitle {
+	color: white;
+	
+}
+
+#mainBody {
+	columns: 3 250px;
+	justify-content: space-evenly;
+	width: 75vw;
+	transform: translateY(-30px)
+}
+
+div.section1 {
+  margin: 2px;
+}
+div.section2 {
+	margin: 2px;
+}
+div.section3 {
+    margin: 2px;
+}
+
+#mainBody2 {
+	columns: 3 250px;
+	justify-content: space-evenly;
+	width: 75vw;
+	transform: translateY(+30px)
+}
+
+div.section4 {
+	margin: 2px;
+}
+div.section5 {
+	margin: 2px;
+}
+div.section6 {
+	margin: 2px;
+}
+
+
+#sidenote {
+	display: grid;
+	grid-template-areas:
+	"note1"
+	"note2";
+	justify-content: space-evenly;
+	transform: translateX(0px)
+
+}
+p.note1{
+	background-color: orange;
+	color: white;
+	width: 200px;
+	padding: 5px;
+
+}
+p.note2 {
+	background-color: silver;
+	width: 200px;
+	padding: 5px;
+}
+
+#sidenote2 {
+	display: grid;
+	grid-template-areas:
+	"note3"
+	"note4";
+	justify-content: space-evenly;
+	transform: translateX(0px)
+}
+p.note3{
+	background-color: orange;
+	color: white;
+	width: 200px;
+	padding: 5px;
+}
+p.note4 {
+	background-color: silver;
+	width: 200px;
+	padding: 5px;
+}
+
+div.footer1 {
+
+	width: 97vw;
+	height: 200px;
+	background: url(../media/minecraftE.png);
+	background-position: center;
+	background-size: cover;
+}
+div.footer2 {
+	width: 97vw;
+	height: 400px;
+	background: url(../media/minecraftE2.png);
+	background-position: center;
+	background-size: cover;
+	transform: translateY(+50px)
+
+}
+div.navbar{
+	color:white;
+	columns: 5 250px;
+	background-color: black;
+	padding: 20px;
+	margin-top: 10px;
+	transform: translateY(-50px);
+	font-size: 20px;
+	
+}
+
+
+footer {
+	color:white;
+	columns: 5 250px;
+	transform: translateY(+60px);
+	background-color: black;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: gray;
+}

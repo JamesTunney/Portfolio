@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Pokemon Finder</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+
+<header>
+	<h1>Pokemon Finder</h1>
+</header>
+
+<main>
+<div class="searchers">
+	Search id -> 
+	<input id="searchterm" type="text" size="20" maxlength="20" autofocus value="22" />
+	<br>
+	Show Shiny (only for pokemon) -> 
+	<select id="shiny">
+		<option value="true">Yes</option>
+		<option value="false" selected>No</option>
+	</select>
+</div>
+
+
+
+<div class="widgets">
+	<button type="button" id="search" class="green">Find some Pokemon!<br /></button>
+	<button type="button" id="item" class="green">Find some Items!<br /></button>
+	<button type="button" id="moves" class="green">Find some Moves!<br /></button>
+</div>
+<div id="status">Ready to Search!</div>
+<hr>
+
+<div id="content">
+	<p>No data yet!</p>
+</div>
+
+<div id="contentTwo">
+	<button type="button" id="last" class="green">Previous<br /></button>
+	<button type="button" id="next" class="green">Next<br /></button>
+</div>
+ <hr>
+</main>
+
+<footer>
+	<p> <a href="documentation.html">Documentation Page</a><p>
+</footer>
+</body>
+
+</html>
