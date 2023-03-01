@@ -2,7 +2,9 @@
 
 - IGME 202 - 2215
 - Professor Baker
-- Unity Version - [2020.3.16 LTS](https://unity3d.com/unity/qa/lts-releases?version=2020.3&page=1)
+- Unity Project (C# Coding) - 
+  - [Running Verson](https://igme-202-2221.github.io/project-1-JamesTunney/)
+  - [Git Repository](https://github.com/IGME-202-2221/project-1-JamesTunney)
 - Player settings
   - Resolution and Presentation
     - WebGL Template = `Default`
