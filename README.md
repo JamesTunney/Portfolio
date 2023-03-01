@@ -1,4 +1,4 @@
-# Exercise-Start
+# James Tunney Portfolio
 
 - IGME 202 - 2215
 - Professor Baker
