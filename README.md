@@ -1,10 +1,13 @@
 # James Tunney Portfolio
 
-- IGME 202 - 2215
-- Professor Baker
-- Unity Project (C# Coding) - 
-  - [Running Verson](https://igme-202-2221.github.io/project-1-JamesTunney/)
-  - [Git Repository](https://github.com/IGME-202-2221/project-1-JamesTunney)
+- Unity Projects (C# Coding) - 
+  - [Space Blaster Running Verson](https://igme-202-2221.github.io/project-1-JamesTunney/)
+    - [Space Blaster Code](https://github.com/JamesTunney/Portfolio/tree/main/Unity-Project-(SpaceBlaster)-Code)
+    - Ship and asteroid assets from MillionthVector: http://millionthvector.blogspot.com/p/free-sprites.html
+ 
+  - [Zombie Simulator Running Verson](https://igme-202-2221.github.io/project-2-JamesTunney/)
+    - [Zombie Simulator Code](https://github.com/JamesTunney/Portfolio/tree/main/Unity-Project-(ZombieSimulation)-Code)
+    
 - Player settings
   - Resolution and Presentation
     - WebGL Template = `Default`
